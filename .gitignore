@@ -1,0 +1,10 @@
+!/.protected/runtime
+/.protected/runtime/*
+!/.assets
+/.assets/*
+!/.protected/config/main.php
+/.protected/config/main.php*
+!/.nbproject/private/
+/.nbproject/private/*
+nbproject/private/private.xml
+youth/protected/runtime/application.log

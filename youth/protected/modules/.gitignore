@@ -1,0 +1,7 @@
+./assets/
+./runtime/
+*.swp
+*~
+./nbproject
+.DS_Store
+.idea
