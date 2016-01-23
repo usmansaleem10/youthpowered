@@ -16,6 +16,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
                 'application.modules.user.models.*',
+                'application.modules.badger.models.*',
                 'application.modules.membership.models.*',
                 'application.modules.registration.models.*',
                 'application.modules.friendship.models.*',
@@ -32,6 +33,7 @@ return array(
 	'defaultController'=>'user',
         'modules' => array(
         'user' => array(),
+        'Badge' => array(),
         'profile' => array(),
         'membership' => array(),
         'registration' => array(),
@@ -48,6 +50,16 @@ return array(
         'userprojectresources' => array(),
         'userdocuments' => array(),
         'userdocumentsprojects' => array(),    
+            'badger' => array(
+                  //'layout' => '//layouts/mainx', //default: "//layouts/main"
+                  //'userTable' => 'userx', // default: "user"
+                  'cacheSec' => 3600 * 24, // cache duration. default: 3600
+ 
+                  // Creates tables and copy necessary files
+//                  'install' => true, // remove/comment after succesful install
+//                   // drop all badger tables before installing (fresh install)
+//                  'dropBeforeInstall' => false, 
+            ),
         'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'123',

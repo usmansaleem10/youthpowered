@@ -1,0 +1,24 @@
+Version 2.0
+===========================
+Release date: 14 Jan, 2014
+
+* Bugfix: Can't give another user badge. Giving only to currently logged user.
+
+Version 1.1
+============================
+Release date: 13 May, 2012
+
+* Bugfix. Error while using badger mobule in other module.
+
+
+Version 1.0
+============================
+Release date: 12 May, 2012
+
+* Bugfix sent by Drini at  http://www.yiiframework.com/extension/badger/#c8113
+  Function user() doesnt exists. Use Yii::app()->user instead
+
+
+Version 1.0-beta
+============================
+Release date: 07 May, 2012
